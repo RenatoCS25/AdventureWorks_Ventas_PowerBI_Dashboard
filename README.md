@@ -1,63 +1,61 @@
-# 📊 Dashboard de Rendimiento de Ventas y Rentabilidad (AdventureWorks)
+# 🚀 Dashboard de Ventas y Rentabilidad para AdventureWorks (Mi Proyecto de BI)
 
-## 🌟 Resumen del Proyecto
+## 🌟 Un Resumen Rápido
 
-Este proyecto es una solución de **Business Intelligence (BI)** que demuestra el ciclo completo de análisis de datos: desde la conexión a la base de datos **AdventureWorks 2022** (SQL Server) hasta la entrega de un dashboard interactivo en **Power BI**. El objetivo principal es monitorear los indicadores clave de **Ventas**, **Costos** y **Rentabilidad** para informar las decisiones gerenciales.
+Este es mi proyecto de Business Intelligence. Mi objetivo principal fue tomar la popular base de datos AdventureWorks 2022 (que está en SQL Server) y transformarla en un Dashboard de Power BI útil y dinámico.
 
-El enfoque en el repositorio está en la **metodología de análisis** y la **ejecución técnica**.
+Decidí enfocarme en lo más importante para cualquier empresa: **saber dónde está ganando o perdiendo dinero**. Así que, el informe está diseñado para que los gerentes puedan monitorear la **Rentabilidad**, el **Margen Bruto** y las tendencias de ventas de forma instantánea.
 
----
-
-## 🛠️ Flujo de Trabajo (Workflow) del Proyecto
-
-El proyecto se ejecutó siguiendo una metodología estructurada de **7 Fases**:
-
-### Fase 1: Planificación y Comprensión del Negocio
-* **Objetivo:** Definir las necesidades del negocio. El dashboard se centró en responder preguntas clave como: *¿Cuál es el margen de beneficio actual?* y *¿Cómo ha evolucionado la tendencia de ventas a lo largo del tiempo?*
-* **KPIs Definidos:** Ventas Totales, Coste Total, Beneficio, Margen Bruto (%), y Ventas por Geografía y Categoría.
-
-### Fase 2: Obtención y Conexión de Datos
-* **Fuente:** Conexión a la base de datos **AdventureWorks 2022** alojada en **SQL Server**.
-* **Tablas Seleccionadas:** Se importaron las tablas necesarias para un modelo de esquema estrella, incluyendo `FactInternetSales` (Hechos) y dimensiones (`DimProduct`, `DimCustomer`, `DimDate`, `DimGeography`).
-
-### Fase 3: Preparación y Transformación de Datos (Power Query)
-* **Limpieza:** Se renombraron columnas para mayor claridad y se ajustaron los tipos de datos (ej. Fechas, Moneda) para asegurar la integridad.
-* **Creación de Atributos:** Se crearon columnas auxiliares (ej. Año Fiscal) necesarias para la segmentación del informe.
-
-### Fase 4: Modelado de Datos
-* **Estructura:** Implementación de un **Esquema Estrella** sólido, estableciendo relaciones **Uno a Varios (1:\*)** entre la tabla de hechos (`FactInternetSales`) y las tablas de dimensión.
-* **Optimización:** Se ocultaron las claves primarias/foráneas del panel de campos para facilitar la creación de informes.
-
-### Fase 5: Cálculos y Métricas (DAX)
-* Se desarrolló la lógica de negocio creando **Medidas (DAX)** clave, esenciales para el análisis:
-    * `Beneficio = [Ventas Totales] - [Coste Total]`
-    * `Margen Bruto (%) = DIVIDE([Beneficio], [Ventas Totales])`
-    * `Crecimiento Año a Año (YoY)` para el análisis de tendencias.
-
-### Fase 6: Visualización y Diseño del Informe
-* **Diseño:** Se implementó un diseño limpio y profesional con una paleta de colores coherente y un uso estratégico de **Tarjetas KPI** en la parte superior.
-* **Visualizaciones:** Se eligieron visuales específicos (Gráfico de Línea, Gráficos de Anillo y Mapas) para contar la historia de los datos de forma efectiva.
-
-### Fase 7: Revisión, Documentación y Entrega
-* **Validación:** Se verificó que los totales y porcentajes del dashboard coincidieran con los datos fuente.
-* **Documentación:** Creación de este `README.md` detallando el proceso, y subida del archivo `.pbix` a GitHub para la reproducibilidad.
+Lo mejor de este proyecto es que pude demostrar todo el proceso, desde la limpieza del dato hasta el *insight* final.
 
 ---
 
-## 📈 Dashboard y Conclusiones Clave
+## 🛠️ El Workflow: Cómo construí el proyecto (7 Fases)
 
-*(**Instrucción:** Inserta las imágenes aquí)*
+Para asegurarme de que el proyecto fuera robusto, seguí esta metodología paso a paso:
 
-| Captura de Pantalla | Conclusión (Ejemplo) |
+### Fase 1: Entender qué Necesitaba el Negocio
+Antes de tocar un dato, definí las **preguntas clave**. Sabía que tenía que responder: *¿Cuánto estamos vendiendo?, ¿Cuánto estamos ganando?, ¿Quiénes son nuestros mejores clientes?* Esto me llevó a definir los KPIs esenciales como **Beneficio**, **Margen Bruto** y **Ventas Totales**.
+
+### Fase 2: Conexión con la Fuente
+Me conecté directamente a la base de datos **AdventureWorks 2022 en SQL Server**. Fue clave identificar las tablas que realmente necesitaba, principalmente `FactInternetSales` (mis hechos) y todas las tablas de dimensión (`DimProduct`, `DimDate`, etc.).
+
+### Fase 3: ¡A Limpiar y Transformar! (Power Query)
+Aquí pasé tiempo en **Power Query** (el editor de Power BI). Hice las tareas necesarias para dejar los datos listos:
+* **Limpié** los nombres de las columnas para que fueran amigables (de `SalesAmount` a `Ventas Totales`).
+* **Aseguré** los tipos de datos correctos (fechas, monedas, etc.).
+
+### Fase 4: La Arquitectura del Modelo
+Para que los filtros funcionaran correctamente y el rendimiento fuera rápido, organicé todo en un **Esquema Estrella**. Conecté mi tabla de hechos a todas mis tablas de dimensión con relaciones **Uno a Varios (1:\*)**. Esto es crucial para la estabilidad del informe.
+
+### Fase 5: La Magia de DAX
+Esta fue una de mis partes favoritas. Usé **DAX** para crear la lógica de negocio, no solo para sumar. Las medidas más importantes que creé fueron:
+* **`Beneficio`**: La resta simple entre mis ventas y costes.
+* **`Margen Bruto (%)`**: La fórmula que indica la rentabilidad real.
+* **`Crecimiento Año a Año (YoY)`**: Para medir si estamos mejorando o empeorando respecto al periodo pasado.
+
+### Fase 6: El Diseño (Hacerlo Útil y Bonito)
+Aquí convertí los números en la interfaz que vieron. Puse los **KPIs clave** en tarjetas grandes en la parte superior para que fueran lo primero que viera el usuario. Elegí un diseño limpio y gráficos apropiados (como el de línea para la tendencia y el mapa para el impacto geográfico).
+
+### Fase 7: Documentación y Entrega
+Finalmente, verifiqué que mis números fueran correctos (validación) y preparé la entrega. Eso incluye este `README.md` y el archivo `.pbix`, listos para ser compartidos y revisados.
+
+---
+
+## 📊 Vistazo Rápido a Mi Dashboard
+
+*(**Instrucción:** Inserta aquí tus capturas de pantalla)*
+
+| Captura de Pantalla | Lo que me pareció más interesante (Conclusión) |
 | :--- | :--- |
-| `![Dashboard Principal](Images/image_63bbca.jpg)` | El **Margen Bruto** se mantuvo por encima del 45%, indicando una alta rentabilidad de los productos. |
-| `![Análisis Geográfico](Images/image_63be73.jpg)` | Se identificó que **Estados Unidos** y **Reino Unido** generan la mayor parte de las ventas totales, lo que requiere un foco estratégico en estos mercados. |
+| `![Dashboard Principal](Images/image_63bbca.jpg)` | Me di cuenta de que, aunque las ventas crecen, el **Margen Bruto** debe ser monitoreado de cerca para asegurar que el crecimiento sea rentable. |
+| `![Análisis Geográfico](Images/image_63be73.jpg)` | La mayor parte del negocio se concentra en dos o tres países clave. Es el momento de evaluar si es mejor invertir en esos mercados o explorar nuevas geografías. |
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## 💻 Herramientas que Usé
 
-* **Power BI Desktop**
-* **SQL Server (AdventureWorks 2022)**
-* **Lenguaje DAX**
-* **Power Query**
+* **Power BI Desktop** (El motor principal del análisis y la visualización)
+* **SQL Server** (La fuente de todos los datos)
+* **Lenguaje DAX** (Para toda la lógica de negocio y las métricas)
+* **Power Query** (Para la limpieza inicial de los datos)
