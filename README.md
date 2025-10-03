@@ -43,9 +43,9 @@ Finalmente, verifiqué que mis números fueran correctos (validación) y prepar�
 ---
 
 ## 📊 Dashboard
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/55dddebc-2356-4eb9-aa4a-e16bb6f0695b" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd19760f-d224-4c6a-8f33-0a0718e60633" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7cc25d43-18b4-4edd-9f35-df7919207cb7" />
+<img width="518" height="290" alt="image" src="https://github.com/user-attachments/assets/81583038-80bc-4160-9c5f-117eac9e40f5" />
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
+<img width="644" height="359" alt="image" src="https://github.com/user-attachments/assets/f95c4de3-3bad-4961-a2a6-6daf7c3dcba6" />
 
 
 ## 💻 Herramientas que Usé
