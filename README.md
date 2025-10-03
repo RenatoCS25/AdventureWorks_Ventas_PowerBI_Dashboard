@@ -1,10 +1,10 @@
 # 🚀 Dashboard de Ventas y Rentabilidad para AdventureWorks (Mi Proyecto de BI)
 
-## 🌟 Un Resumen Rápido
+## 🌟 Introduccion
 
 Este es mi proyecto de Business Intelligence. Mi objetivo principal fue tomar la popular base de datos AdventureWorks 2022 (que está en SQL Server) y transformarla en un Dashboard de Power BI útil y dinámico.
 
-Decidí enfocarme en lo más importante para cualquier empresa: **saber dónde está ganando o perdiendo dinero**. Así que, el informe está diseñado para que los gerentes puedan monitorear la **Rentabilidad**, el **Margen Bruto** y las tendencias de ventas de forma instantánea.
+Decidí enfocarme en lo más importante para cualquier empresa: Saber dónde está ganando o perdiendo dinero. Así que, el informe está diseñado para que los gerentes puedan monitorear la **Rentabilidad**, el **Margen Bruto** y las tendencias de ventas de forma instantánea.
 
 Lo mejor de este proyecto es que pude demostrar todo el proceso, desde la limpieza del dato hasta el *insight* final.
 
