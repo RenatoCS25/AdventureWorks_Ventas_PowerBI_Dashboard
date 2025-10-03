@@ -10,35 +10,22 @@ Lo mejor de este proyecto es que pude demostrar todo el proceso, desde la limpie
 
 ---
 
-## 🛠️ El Workflow: Cómo construí el proyecto (7 Fases)
+El Proceso de Análisis (Workflow)
+Para estructurar el trabajo, seguí estas 7 fases clave:
 
-Para asegurarme de que el proyecto fuera robusto, seguí esta metodología paso a paso:
+Planificación: Definí que los KPIs principales serían el Beneficio, el Margen Bruto y la tendencia de Ventas, orientados a la gerencia.
 
-### Fase 1: Entender qué Necesitaba el Negocio
-Antes de tocar un dato, definí las preguntas clave. Sabía que tenía que responder: ¿Cuánto estamos vendiendo?, ¿Cuánto estamos ganando?, ¿Quiénes son nuestros mejores clientes? Esto me llevó a definir los KPIs esenciales como Beneficio, Margen Bruto y Ventas Totales.
+Obtención de Datos: Me conecté a la base de datos de AdventureWorks en SQL Server, seleccionando las tablas de hechos y dimensiones necesarias.
 
-### Fase 2: Conexión con la Fuente
-Me conecté directamente a la base de datos AdventureWorks 2022 en SQL Server. Fue clave identificar las tablas que realmente necesitaba, principalmente `FactInternetSales` (mis hechos) y todas las tablas de dimensión (`DimProduct`, `DimDate`, etc.).
+Preparación de Datos (Power Query): Limpié y renombré columnas, asegurando que los tipos de datos fueran correctos (fechas, moneda, etc.).
 
-### Fase 3: Limpieza y Transformacion
-Aquí pasé tiempo en Power Query (el editor de Power BI). Hice las tareas necesarias para dejar los datos listos:
-* Limpié los nombres de las columnas para que fueran amigables (de `SalesAmount` a `Ventas Totales`).
-* seguré los tipos de datos correctos (fechas, monedas, etc.).
+Modelado de Datos: Construí un Esquema Estrella, estableciendo relaciones Uno a Varios (1:*) entre las tablas para garantizar la estabilidad del informe.
 
-### Fase 4: La Arquitectura del Modelo
-Para que los filtros funcionaran correctamente y el rendimiento fuera rápido, organicé todo en un Esquema Estrella. Conecté mi tabla de hechos a todas mis tablas de dimensión con relaciones Uno a Varios (1:\*). Esto es crucial para la estabilidad del informe.
+Cálculos (DAX): Desarrollé la lógica de negocio. Las métricas esenciales incluyen el Beneficio, el Margen Bruto y el cálculo del Crecimiento Año a Año (YoY).
 
-### Fase 5: Uso de DAX
-Esta fue una de mis partes favoritas. Usé DAX para crear la lógica de negocio, no solo para sumar. Las medidas más importantes que creé fueron:
-* **`Beneficio`**: La resta simple entre mis ventas y costes.
-* **`Margen Bruto (%)`**: La fórmula que indica la rentabilidad real.
-* **`Crecimiento Año a Año (YoY)`**: Para medir si estamos mejorando o empeorando respecto al periodo pasado.
+Visualización y Diseño: Creé el diseño del informe, usando tarjetas para los KPIs y gráficos (línea, dona, mapa) que responden a preguntas específicas de negocio.
 
-### Fase 6: El Diseño 
-Aquí convertí los números en la interfaz que vieron. Puse los KPIs clave en tarjetas grandes en la parte superior para que fueran lo primero que viera el usuario. Elegí un diseño limpio y gráficos apropiados (como el de línea para la tendencia y el mapa para el impacto geográfico).
-
-### Fase 7: Documentación y Entrega
-Finalmente, verifiqué que mis números fueran correctos (validación) y preparé la entrega.
+Documentación y Entrega: Verifiqué que los números fueran precisos y preparé el archivo .pbix y esta documentación para compartir.
 
 ---
 
