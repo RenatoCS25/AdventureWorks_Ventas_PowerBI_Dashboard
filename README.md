@@ -43,7 +43,7 @@ Finalmente, verifiqué que mis números fueran correctos (validación) y prepar�
 ---
 
 ## 📊 Dashboard
-<img width="518" height="290" alt="image" src="https://github.com/user-attachments/assets/81583038-80bc-4160-9c5f-117eac9e40f5" />
+<img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
 <img width="644" height="359" alt="image" src="https://github.com/user-attachments/assets/f95c4de3-3bad-4961-a2a6-6daf7c3dcba6" />
 
