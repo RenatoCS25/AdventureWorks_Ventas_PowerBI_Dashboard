@@ -52,7 +52,7 @@ Finalmente, verifiqué que mis números fueran correctos (validación) y prepar�
 
 ## 💻 Herramientas que Usé
 
-* **Power BI Desktop** (El motor principal del análisis y la visualización)
-* **SQL Server** (La fuente de todos los datos)
-* **Lenguaje DAX** (Para toda la lógica de negocio y las métricas)
-* **Power Query** (Para la limpieza inicial de los datos)
+* **Power BI Desktop** 
+* **SQL Server** 
+* **Lenguaje DAX** 
+* **Power Query** 
