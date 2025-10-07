@@ -41,7 +41,7 @@ DimGeography: Datos geográficos (países, estados, ciudades)
 
 DimDate: Tabla calendario para análisis temporal
 
-Integración: Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
+Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
 
 # b. Procesamiento de Datos
 
