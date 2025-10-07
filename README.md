@@ -6,15 +6,11 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 
 ## Objetivos del Proyecto
 
-Analizar el desempeño comercial de Adventure Works durante el período 2022-2024
-
-Identificar productos y categorías más rentables para optimizar el inventario
-
-Segmentar clientes por características demográficas y comportamiento de compra
-
-Detectar tendencias temporales en ventas para planificar estrategias estacionales
-
-Visualizar KPIs clave mediante dashboards interactivos para la toma de decisiones
+1. Analizar el desempeño comercial de Adventure Works durante el período 2022-2024
+2. Identificar productos y categorías más rentables para optimizar el inventario
+3. Segmentar clientes por características demográficas y comportamiento de compra
+4. Detectar tendencias temporales en ventas para planificar estrategias estacionales
+5. Visualizar KPIs clave mediante dashboards interactivos para la toma de decisiones
 
 
 ## Preguntas Clave del Análisis
