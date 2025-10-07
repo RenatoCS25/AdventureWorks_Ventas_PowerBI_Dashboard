@@ -23,11 +23,12 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 
 
 ## Metodología
+
 # a. Preparación de Datos
 
 Fuente de Datos: Base de datos AdventureWorks2022 (Microsoft SQL Server)
 
--Tablas Principales:
+- Tablas Principales:
 
 FactInternetSales: ~60,000 registros de transacciones
 
