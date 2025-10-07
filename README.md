@@ -64,21 +64,26 @@ Categorización de clientes por rangos de ingreso
 
 ### c. Análisis de Datos
 
-- Métricas Clave Calculadas (DAX):
+#### - Métricas Clave Calculadas (DAX):
 Ventas Totales = SUM(FactInternetSales[SalesAmount])
+
 Costo Total = SUM(FactInternetSales[TotalProductCost])
+
 Utilidad Bruta = [Ventas Totales] - [Costo Total]
+
 Margen % = DIVIDE([Utilidad Bruta], [Ventas Totales], 0)
+
 Clientes Únicos = DISTINCTCOUNT(FactInternetSales[CustomerKey])
 
--Análisis Realizados:
+#### -Análisis Realizados:
+
 Análisis de tendencias temporales (series de tiempo)
 Análisis de Pareto (80/20) para productos
 Segmentación RFM básica de clientes
 Análisis geográfico de ventas por país/ciudad
 Comparación año contra año (YoY)
 
--Visualización:
+#### -Visualización:
 Se desarrollaron 3 dashboards interactivos en Power BI con filtros dinámicos por fecha y categoría.
 
 ## Resultados
