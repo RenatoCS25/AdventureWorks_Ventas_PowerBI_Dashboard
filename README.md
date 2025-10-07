@@ -103,14 +103,14 @@ El 27.52% de clientes tienen educación universitaria parcial
 Clientes de alto valor (20K-40K) generan el mayor volumen de ventas
 
 
-## 📊 Dashboard
+##  Dashboard
 <img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
 <img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
 
 
 
-## 💻 Herramientas que Usé
+##  Herramientas que Usé
 
 * **Power BI Desktop** 
 * **SQL Server** 
