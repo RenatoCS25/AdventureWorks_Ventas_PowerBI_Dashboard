@@ -1,82 +1,106 @@
 # 🚀 Dashboard de Ventas y Rentabilidad para AdventureWorks (Mi Proyecto de BI)
 
-## 🌟 Introduccion
+ Adventure Works 2022 - Análisis de Ventas y Dashboard Interactivo
+## Introduccion
+Proyecto de análisis integral de datos de ventas de Adventure Works, una empresa ficticia de comercio de bicicletas y accesorios deportivos. Este proyecto incluye un análisis exploratorio completo, limpieza de datos, modelado dimensional y la creación de dashboards interactivos en Power BI para visualizar KPIs clave de negocio.
+El análisis abarca datos de ventas desde 2022 hasta 2024, con información detallada sobre productos, clientes, geografías y tendencias de mercado.
 
-Este es mi proyecto de Business Intelligence. Mi objetivo principal fue tomar la popular base de datos AdventureWorks 2022 (que está en SQL Server) y transformarla en un Dashboard de Power BI útil y dinámico.
+## Objetivos del Proyecto
 
-Decidí enfocarme en lo más importante para cualquier empresa: Saber dónde está ganando o perdiendo dinero. Así que, el informe está diseñado para que los gerentes puedan monitorear la Rentabilidad, el Margen Bruto y las tendencias de ventas de forma instantánea.
+Analizar el comportamiento de ventas de Adventure Works a lo largo de 3 años
+Identificar los productos y categorías más rentables
+Segmentar clientes por comportamiento de compra y características demográficas
+Crear visualizaciones interactivas para facilitar la toma de decisiones empresariales
+Desarrollar métricas clave (KPIs) para monitorear el desempeño del negocio
 
-Lo mejor de este proyecto es que pude demostrar todo el proceso, desde la limpieza del dato hasta el insight final.
+## Tecnologías y Herramientas
 
-## Titulo del Proyecto
-“Análisis de Ventas Adventure Works (2022–2024): Rentabilidad, Clientes y Oportunidades de Crecimiento”
-Desarrollo de un dashboard ejecutivo en Power BI para el análisis integral del desempeño comercial de Adventure Works, abarcando ventas, costos, utilidad, clientes y productos entre 2022 y 2024.
+Power BI Desktop: Desarrollo de dashboards interactivos
+SQL Server: Base de datos Adventure Works 2022
+DAX (Data Analysis Expressions): Creación de métricas y cálculos
+Power Query: ETL y transformación de datos
+Excel: Análisis preliminar y validación de datos
 
-## Objetivo del Proyecto:
-Analizar la evolución de las ventas, costos y rentabilidad de Adventure Works entre 2022 y 2024, identificando los productos, países y segmentos de clientes más rentables para apoyar la toma de decisiones comerciales.
+## Descripción del Dataset
+Fuente: Base de datos AdventureWorks2022 (Microsoft Sample Database)
+Estructura de datos:
 
-Objetivos específicos:
+FactInternetSales: ~60,000 registros de ventas online
+DimCustomer: ~18,000 clientes únicos
+DimProduct: Catálogo completo de productos (bicicletas, accesorios, ropa)
+DimGeography: Datos geográficos de 4 países principales
+DimDate: Tabla calendario para análisis temporal
 
--Evaluar la rentabilidad por categoría y subcategoría de producto.
--Analizar el comportamiento temporal de ventas y costos.
--Identificar el perfil de los clientes más valiosos.
--Detectar oportunidades de crecimiento en países y ciudades clave.
+Período de análisis: 2022 - 2024
+## KPIs Principales
+Métricas de Ventas
 
-## Descripción del Proyecto y Metodología
+Ventas Totales: $29.36M
+Costo Total: $17.28M
+Utilidad Bruta: $12.08M (41.2% margen)
+Total de Pedidos: 60,000
+Clientes Únicos: 18,000
 
-Para estructurar el trabajo, seguí estas 7 fases clave:
+Segmentación de Productos
 
-Planificación: Definí que los KPIs principales serían el Ventas Totales, Costo Total, Utilidad Bruta, Número de Pedidos y Clientes Únicos.
+Bikes: $28.3M (96.46% de ventas totales)
 
-Obtención de Datos: Me conecté a la base de datos de AdventureWorks en SQL Server, seleccionando las tablas de hechos y dimensiones necesarias.
+Mountain Bikes: Principal categoría
+Road Bikes: Segunda categoría
+Touring Bikes: Menor participación
 
-Preparación de Datos (Power Query): Limpié y renombré columnas, asegurando que los tipos de datos fueran correctos (fechas, moneda, etc.).
 
-Modelado de Datos: Construí un Esquema Estrella, estableciendo relaciones Uno a Varios (1:*) entre las tablas para garantizar la estabilidad del informe.
+Accessories: $700K
+Clothing: $339K
 
-Cálculos (DAX): Desarrollé la lógica de negocio. Las métricas esenciales incluyen el Beneficio, el Margen Bruto y el cálculo del Crecimiento Año a Año (YoY).
+## Análisis Realizados
+1. Dashboard de Resumen Ejecutivo
 
-Visualización y Diseño: Creé el diseño del informe, usando tarjetas para los KPIs y gráficos (línea, dona, mapa) que responden a preguntas específicas de negocio.
+Visualización de KPIs principales
+Tendencias de ventas y costos por año y mes
+Comparación de ventas por año (2022-2024)
+Top 5 productos por ventas
+Análisis por categoría de producto
+Distribución de ventas por país
 
-Documentación y Entrega: Verifiqué que los números fueran precisos y preparé el archivo .pbix y esta documentación para compartir.
+2. Dashboard de Productos
 
-## Resultados Clave 
--Las ventas totales alcanzan $29,36M, con una utilidad bruta de $12,08M.
--Crecimiento sostenido entre 2022 y 2024, con tendencia positiva en ingresos y márgenes.
--La categoría Bikes representa el 96 % del total de ventas.
--Road Bikes y Mountain Bikes son los productos más vendidos y rentables.
--Algunas líneas de accesorios tienen ventas moderadas pero bajo margen.
--Se observa estacionalidad por trimestres, con picos de ventas en ciertos periodos
--Los Top 10 clientes generan una parte significativa de los ingresos totales.
--La mayoría de los clientes pertenecen a ocupaciones profesionales.
--El género masculino predomina ligeramente.
+Análisis de utilidad bruta por subcategoría
+Ventas y costos trimestrales
+Distribución geográfica de ventas por ciudad
+Performance de productos individuales
+Comparación de categorías (Bikes, Accessories, Clothing)
 
-## Conclusiones
-1. Adventure Works muestra un crecimiento sostenido en ventas y utilidad entre 2022 y 2024.
-2. 2.La categoría Bikes domina el negocio, pero genera dependencia de un solo producto principal.
-3. EE. UU. concentra la mayor parte de las ventas, representando riesgo si el mercado se contrae.
-4. lgunos productos con alto volumen presentan bajos márgenes, por lo que requieren ajustes de precio o costo.
-5. El perfil de cliente más rentable son los profesionales recurrentes, pero la empresa puede expandirse a otros segmentos.
+3. Dashboard de Clientes
 
-## Insights 
-La empresa tiene un desempeño sólido, pero una fuerte dependencia de la categoría “Bikes” y del mercado estadounidense.
-Se puede mejorar la rentabilidad optimizando precios o costos en subcategorías con bajo margen y aprovechando la estacionalidad con campañas dirigidas.
-Existe potencial para diversificar la cartera de clientes y captar nuevos segmentos, especialmente en ocupaciones o regiones con menor participación.
+Perfil del top cliente: Nichole Nara ($13,295 en ventas)
+Top 10 clientes por monto de compra
+Segmentación por ocupación (Profesional: $9.9M)
+Análisis por estado civil
+Distribución por nivel educativo
+Segmentación por género (49.7% M / 50.3% F)
+Análisis de ingresos por rangos salariales
 
-## Recomendaciones
+## Principales Hallazgos
+Insights de Ventas
 
-Diversificación: desarrollar líneas de accesorios o ropa con mayor margen para reducir la dependencia de “Bikes”.
+Crecimiento sostenido: Las ventas muestran una tendencia creciente de 2022 a 2024, con $16M en 2024
+Dominio de Bikes: La categoría Bikes representa el 96.46% del total de ventas
+Estacionalidad: Se observan picos de ventas en segundo semestre de cada año
 
-Expansión geográfica: fortalecer presencia en Australia y Francia con campañas regionales.
+Insights de Productos
 
-Gestión de precios: revisar márgenes en subcategorías menos rentables.
+Mountain Bikes y Road Bikes son las subcategorías más rentables
+Los accesorios (Tires and Tubes, Touring Tire Tube) tienen alto volumen pero menor margen
+Top 5 productos generan una contribución significativa al revenue total
 
-Fidelización: crear programas de puntos o beneficios para clientes frecuentes.
+Insights de Clientes
 
-Optimización estacional: lanzar promociones en trimestres de menor demanda.
-
-Monitoreo continuo: mantener actualizado el dashboard para decisiones en tiempo real.
-
+Segmento profesional es el más valioso ($9.9M en ventas)
+Distribución equilibrada por género en la base de clientes
+Reino Unido y Estados Unidos son los mercados más importantes
+El 27.52% de clientes tienen educación universitaria parcial
+Clientes de alto valor (20K-40K) generan el mayor volumen de ventas
 
 
 ## 📊 Dashboard
