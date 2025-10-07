@@ -1,4 +1,4 @@
-### 🚴‍♂️ Adventure Works - Análisis Integral de Ventas
+# 🚴‍♂️ Adventure Works - Análisis Integral de Ventas
 
 ## Descripción del Proyecto
 Adventure Works es una empresa multinacional de fabricación y venta de bicicletas y accesorios deportivos. Este proyecto presenta un análisis exhaustivo de datos de ventas, clientes y productos del período 2022-2024, implementando un modelo dimensional en Power BI para proporcionar insights accionables al equipo directivo.
@@ -24,11 +24,11 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 
 ## Metodología
 
-# a. Preparación de Datos
+### a. Preparación de Datos
 
 Fuente de Datos: Base de datos AdventureWorks2022 (Microsoft SQL Server)
 
-- Tablas Principales:
+##### - Tablas Principales:
 
 FactInternetSales: ~60,000 registros de transacciones
 
@@ -44,7 +44,7 @@ DimDate: Tabla calendario para análisis temporal
 
 Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
 
-# b. Procesamiento de Datos
+### b. Procesamiento de Datos
 
 -Exploración Inicial:
 Análisis de estructura de tablas y relaciones
@@ -62,7 +62,7 @@ Creación de columnas calculadas (Utilidad Bruta, Margen %)
 Generación de jerarquías temporales (Año > Trimestre > Mes)
 Categorización de clientes por rangos de ingreso
 
-# c. Análisis de Datos
+### c. Análisis de Datos
 
 - Métricas Clave Calculadas (DAX):
 Ventas Totales = SUM(FactInternetSales[SalesAmount])
@@ -82,10 +82,10 @@ Comparación año contra año (YoY)
 Se desarrollaron 3 dashboards interactivos en Power BI con filtros dinámicos por fecha y categoría.
 
 ## Resultados
-a. KPIs Principales del Negocio
+### a. KPIs Principales del Negocio
 MétricaValorInsightVentas Totales$29.36MCrecimiento sostenido 2022-2024Costo Total$17.28MEficiencia operativa del 59%Utilidad Bruta$12.08MMargen saludable del 41.2%Total Pedidos60,000Alto volumen de transaccionesClientes Únicos18,000Base de clientes sólidaTicket Promedio$489Valor alto por transacción
 
-b. Análisis de Productos
+### b. Análisis de Productos
 Desempeño por Categoría: Bikes - $28.3M (96.46% de ventas)
 Mountain Bikes: Categoría líder en ventas
 Road Bikes: Segunda categoría más rentable
@@ -99,7 +99,7 @@ Complemento de línea de productos
 Top 5 Productos por Ventas:
 Los 5 productos principales concentran aproximadamente el 35% del revenue total, evidenciando oportunidades de diversificación.
 
-c. Análisis de Clientes
+### c. Análisis de Clientes
 - Perfil del Cliente Top:
 
 Nombre: Nichole Nara
@@ -132,7 +132,7 @@ Mayor nivel educativo correlaciona con mayor gasto
 Rango $20K-$40K: Mayor volumen de ventas
 Rango $60K-$80K: Clientes de mayor valor individual
 
-d. Análisis Geográfico
+### d. Análisis Geográfico
 - Distribución de Ventas por País:
 
 United States: Mayor mercado (~45%)
@@ -145,7 +145,7 @@ France: Menor participación pero estable
 London, Paris, Wollongong, Warrnambool, Bendigo
 Concentración en áreas metropolitanas
 
-e. Patrones Temporales
+### e. Patrones Temporales
 - Tendencia Anual:
 
 2022: $7M (fase inicial)
