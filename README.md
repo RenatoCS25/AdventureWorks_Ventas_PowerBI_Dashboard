@@ -19,11 +19,11 @@ Visualizar KPIs clave mediante dashboards interactivos para la toma de decisione
 
 ## Preguntas Clave del Análisis
 
-¿Cuál es la tendencia de ventas y rentabilidad en los últimos 3 años?
-¿Qué productos y categorías generan mayor margen de utilidad?
-¿Cuáles son las características demográficas de los clientes más valiosos?
-¿Qué mercados geográficos presentan mayor potencial de crecimiento?
-¿Existen patrones estacionales en las ventas que puedan aprovecharse?
+1. ¿Cuál es la tendencia de ventas y rentabilidad en los últimos 3 años?
+2. ¿Qué productos y categorías generan mayor margen de utilidad?
+3. ¿Cuáles son las características demográficas de los clientes más valiosos?
+4. ¿Qué mercados geográficos presentan mayor potencial de crecimiento?
+5. ¿Existen patrones estacionales en las ventas que puedan aprovecharse?
 
 
 ## Metodología
