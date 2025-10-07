@@ -23,9 +23,10 @@ Visualizar KPIs clave mediante dashboards interactivos para la toma de decisione
 
 
 ## Metodología
-a. Preparación de Datos
+# a. Preparación de Datos
+
 Fuente de Datos: Base de datos AdventureWorks2022 (Microsoft SQL Server)
-Tablas Principales:
+-Tablas Principales:
 
 FactInternetSales: ~60,000 registros de transacciones
 DimCustomer: 18,000 clientes únicos
@@ -35,126 +36,122 @@ DimGeography: Datos geográficos (países, estados, ciudades)
 DimDate: Tabla calendario para análisis temporal
 
 Integración: Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
-b. Procesamiento de Datos
-Exploración Inicial:
 
+# b. Procesamiento de Datos
+
+-Exploración Inicial:
 Análisis de estructura de tablas y relaciones
 Identificación de claves primarias y foráneas
 Evaluación de calidad de datos
 
-Limpieza de Datos:
-
+-Limpieza de Datos:
 Gestión de valores nulos en campos críticos
 Validación de tipos de datos (fechas, montos, categorías)
 Eliminación de registros duplicados
 Normalización de nombres y categorías
 
-Transformación:
-
+-Transformación:
 Creación de columnas calculadas (Utilidad Bruta, Margen %)
 Generación de jerarquías temporales (Año > Trimestre > Mes)
 Categorización de clientes por rangos de ingreso
 
-c. Análisis de Datos
-Métricas Clave Calculadas (DAX):
-daxVentas Totales = SUM(FactInternetSales[SalesAmount])
+# c. Análisis de Datos
+
+- Métricas Clave Calculadas (DAX):
+Ventas Totales = SUM(FactInternetSales[SalesAmount])
 Costo Total = SUM(FactInternetSales[TotalProductCost])
 Utilidad Bruta = [Ventas Totales] - [Costo Total]
 Margen % = DIVIDE([Utilidad Bruta], [Ventas Totales], 0)
 Clientes Únicos = DISTINCTCOUNT(FactInternetSales[CustomerKey])
-Análisis Realizados:
 
+-Análisis Realizados:
 Análisis de tendencias temporales (series de tiempo)
 Análisis de Pareto (80/20) para productos
 Segmentación RFM básica de clientes
 Análisis geográfico de ventas por país/ciudad
 Comparación año contra año (YoY)
 
-Visualización:
+-Visualización:
 Se desarrollaron 3 dashboards interactivos en Power BI con filtros dinámicos por fecha y categoría.
 
 ## Resultados
 a. KPIs Principales del Negocio
 MétricaValorInsightVentas Totales$29.36MCrecimiento sostenido 2022-2024Costo Total$17.28MEficiencia operativa del 59%Utilidad Bruta$12.08MMargen saludable del 41.2%Total Pedidos60,000Alto volumen de transaccionesClientes Únicos18,000Base de clientes sólidaTicket Promedio$489Valor alto por transacción
+
 b. Análisis de Productos
-Desempeño por Categoría:
-
-Bikes - $28.3M (96.46% de ventas)
-
+Desempeño por Categoría: Bikes - $28.3M (96.46% de ventas)
 Mountain Bikes: Categoría líder en ventas
 Road Bikes: Segunda categoría más rentable
 Touring Bikes: Menor participación pero alto margen
-
-
 Accessories - $700K (2.38%)
-
 Tires and Tubes: Mayor volumen
 Alto potencial de venta cruzada
-
-
 Clothing - $339K (1.15%)
-
 Complemento de línea de productos
-
-
 
 Top 5 Productos por Ventas:
 Los 5 productos principales concentran aproximadamente el 35% del revenue total, evidenciando oportunidades de diversificación.
+
 c. Análisis de Clientes
-Perfil del Cliente Top:
+- Perfil del Cliente Top:
 
 Nombre: Nichole Nara
 Ventas Generadas: $13,295
 Unidades Compradas: 13
 Margen Contribuido: $5,250
 
-Segmentación Demográfica:
-SegmentoVentas% TotalProfesionales$9.9M33.7%Gestión$5.5M18.7%Obreros especializados$6.4M21.8%Administrativos$4.7M16.0%Otros$2.9M9.8%
-Distribución por Género:
+- Segmentación Demográfica:
+Profesionales $9.9M con 33.7% del total
+Gestión $5.5 M con 18.7% del total
+Obreros especializados $6.4M con 21.8% del total
+Administrativos $4.7M con 16.0% del total
+Otros $2.9M con 9.8% del total
+
+-  Distribución por Género:
 
 Masculino: 49.7% (30,000 clientes)
 Femenino: 50.3% (30,000 clientes)
 Distribución equilibrada sin sesgo de género
 
-Nivel Educativo:
+- Nivel Educativo:
 
 Licenciatura completa: 30.04%
 Universidad parcial: 27.52%
 Postgrado: 20.04%
 Mayor nivel educativo correlaciona con mayor gasto
 
-Ingresos por Cliente:
+- Ingresos por Cliente:
 
 Rango $20K-$40K: Mayor volumen de ventas
 Rango $60K-$80K: Clientes de mayor valor individual
 
 d. Análisis Geográfico
-Distribución de Ventas por País:
+- Distribución de Ventas por País:
 
 United States: Mayor mercado (~45%)
 United Kingdom: Segundo mercado importante
 Australia: Mercado en crecimiento
 France: Menor participación pero estable
 
-Ciudades Top por Ventas:
+- Ciudades Top por Ventas:
 
 London, Paris, Wollongong, Warrnambool, Bendigo
 Concentración en áreas metropolitanas
 
 e. Patrones Temporales
-Tendencia Anual:
+- Tendencia Anual:
 
 2022: $7M (fase inicial)
 2023: $6M (consolidación)
 2024: $16M (crecimiento acelerado)
 CAGR aproximado: 51% anual
 
-Estacionalidad:
+- Estacionalidad:
 
 Picos de ventas consistentes en segundo semestre
 Posible influencia de temporada deportiva y clima
 
-Patrones Semanales:
+- Patrones Semanales:
 Los datos sugieren uso consistente a lo largo de la semana por clientes miembros.
 
 ## Principales Insights del Análisis
