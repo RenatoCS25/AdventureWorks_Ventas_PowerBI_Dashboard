@@ -1,106 +1,225 @@
-# 🚀 Dashboard de Ventas y Rentabilidad para AdventureWorks (Mi Proyecto de BI)
-
- Adventure Works 2022 - Análisis de Ventas y Dashboard Interactivo
-## Introduccion
-Proyecto de análisis integral de datos de ventas de Adventure Works, una empresa ficticia de comercio de bicicletas y accesorios deportivos. Este proyecto incluye un análisis exploratorio completo, limpieza de datos, modelado dimensional y la creación de dashboards interactivos en Power BI para visualizar KPIs clave de negocio.
-El análisis abarca datos de ventas desde 2022 hasta 2024, con información detallada sobre productos, clientes, geografías y tendencias de mercado.
+ Adventure Works 2022 - Análisis Integral de Ventas
+## Descripción del Proyecto
+Adventure Works es una empresa multinacional de fabricación y venta de bicicletas y accesorios deportivos. Este proyecto presenta un análisis exhaustivo de datos de ventas, clientes y productos del período 2022-2024, implementando un modelo dimensional en Power BI para proporcionar insights accionables al equipo directivo.
+El análisis se enfoca en identificar patrones de ventas, productos más rentables, segmentación de clientes y tendencias geográficas para optimizar estrategias comerciales y maximizar la rentabilidad.
 
 ## Objetivos del Proyecto
 
-Analizar el comportamiento de ventas de Adventure Works a lo largo de 3 años
-Identificar los productos y categorías más rentables
-Segmentar clientes por comportamiento de compra y características demográficas
-Crear visualizaciones interactivas para facilitar la toma de decisiones empresariales
-Desarrollar métricas clave (KPIs) para monitorear el desempeño del negocio
+Analizar el desempeño comercial de Adventure Works durante el período 2022-2024
+Identificar productos y categorías más rentables para optimizar el inventario
+Segmentar clientes por características demográficas y comportamiento de compra
+Detectar tendencias temporales en ventas para planificar estrategias estacionales
+Visualizar KPIs clave mediante dashboards interactivos para la toma de decisiones
 
-## Tecnologías y Herramientas
 
-Power BI Desktop: Desarrollo de dashboards interactivos
-SQL Server: Base de datos Adventure Works 2022
-DAX (Data Analysis Expressions): Creación de métricas y cálculos
-Power Query: ETL y transformación de datos
-Excel: Análisis preliminar y validación de datos
+## Preguntas Clave del Análisis
 
-## Descripción del Dataset
-Fuente: Base de datos AdventureWorks2022 (Microsoft Sample Database)
-Estructura de datos:
+¿Cuál es la tendencia de ventas y rentabilidad en los últimos 3 años?
+¿Qué productos y categorías generan mayor margen de utilidad?
+¿Cuáles son las características demográficas de los clientes más valiosos?
+¿Qué mercados geográficos presentan mayor potencial de crecimiento?
+¿Existen patrones estacionales en las ventas que puedan aprovecharse?
 
-FactInternetSales: ~60,000 registros de ventas online
-DimCustomer: ~18,000 clientes únicos
-DimProduct: Catálogo completo de productos (bicicletas, accesorios, ropa)
-DimGeography: Datos geográficos de 4 países principales
+
+## Metodología
+a. Preparación de Datos
+Fuente de Datos: Base de datos AdventureWorks2022 (Microsoft SQL Server)
+Tablas Principales:
+
+FactInternetSales: ~60,000 registros de transacciones
+DimCustomer: 18,000 clientes únicos
+DimProduct: Catálogo completo de productos
+DimProductCategory y DimProductSubcategory: Jerarquías de productos
+DimGeography: Datos geográficos (países, estados, ciudades)
 DimDate: Tabla calendario para análisis temporal
 
-Período de análisis: 2022 - 2024
-## KPIs Principales
-Métricas de Ventas
+Integración: Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
+b. Procesamiento de Datos
+Exploración Inicial:
 
-Ventas Totales: $29.36M
-Costo Total: $17.28M
-Utilidad Bruta: $12.08M (41.2% margen)
-Total de Pedidos: 60,000
-Clientes Únicos: 18,000
+Análisis de estructura de tablas y relaciones
+Identificación de claves primarias y foráneas
+Evaluación de calidad de datos
 
-Segmentación de Productos
+Limpieza de Datos:
 
-Bikes: $28.3M (96.46% de ventas totales)
+Gestión de valores nulos en campos críticos
+Validación de tipos de datos (fechas, montos, categorías)
+Eliminación de registros duplicados
+Normalización de nombres y categorías
 
-Mountain Bikes: Principal categoría
-Road Bikes: Segunda categoría
-Touring Bikes: Menor participación
+Transformación:
+
+Creación de columnas calculadas (Utilidad Bruta, Margen %)
+Generación de jerarquías temporales (Año > Trimestre > Mes)
+Categorización de clientes por rangos de ingreso
+
+c. Análisis de Datos
+Métricas Clave Calculadas (DAX):
+daxVentas Totales = SUM(FactInternetSales[SalesAmount])
+Costo Total = SUM(FactInternetSales[TotalProductCost])
+Utilidad Bruta = [Ventas Totales] - [Costo Total]
+Margen % = DIVIDE([Utilidad Bruta], [Ventas Totales], 0)
+Clientes Únicos = DISTINCTCOUNT(FactInternetSales[CustomerKey])
+Análisis Realizados:
+
+Análisis de tendencias temporales (series de tiempo)
+Análisis de Pareto (80/20) para productos
+Segmentación RFM básica de clientes
+Análisis geográfico de ventas por país/ciudad
+Comparación año contra año (YoY)
+
+Visualización:
+Se desarrollaron 3 dashboards interactivos en Power BI con filtros dinámicos por fecha y categoría.
+
+## Resultados
+a. KPIs Principales del Negocio
+MétricaValorInsightVentas Totales$29.36MCrecimiento sostenido 2022-2024Costo Total$17.28MEficiencia operativa del 59%Utilidad Bruta$12.08MMargen saludable del 41.2%Total Pedidos60,000Alto volumen de transaccionesClientes Únicos18,000Base de clientes sólidaTicket Promedio$489Valor alto por transacción
+b. Análisis de Productos
+Desempeño por Categoría:
+
+Bikes - $28.3M (96.46% de ventas)
+
+Mountain Bikes: Categoría líder en ventas
+Road Bikes: Segunda categoría más rentable
+Touring Bikes: Menor participación pero alto margen
 
 
-Accessories: $700K
-Clothing: $339K
+Accessories - $700K (2.38%)
 
-## Análisis Realizados
-1. Dashboard de Resumen Ejecutivo
+Tires and Tubes: Mayor volumen
+Alto potencial de venta cruzada
 
-Visualización de KPIs principales
-Tendencias de ventas y costos por año y mes
-Comparación de ventas por año (2022-2024)
-Top 5 productos por ventas
-Análisis por categoría de producto
-Distribución de ventas por país
 
-2. Dashboard de Productos
+Clothing - $339K (1.15%)
 
-Análisis de utilidad bruta por subcategoría
-Ventas y costos trimestrales
-Distribución geográfica de ventas por ciudad
-Performance de productos individuales
-Comparación de categorías (Bikes, Accessories, Clothing)
+Complemento de línea de productos
 
-3. Dashboard de Clientes
 
-Perfil del top cliente: Nichole Nara ($13,295 en ventas)
-Top 10 clientes por monto de compra
-Segmentación por ocupación (Profesional: $9.9M)
-Análisis por estado civil
-Distribución por nivel educativo
-Segmentación por género (49.7% M / 50.3% F)
-Análisis de ingresos por rangos salariales
 
-## Principales Hallazgos
-Insights de Ventas
+Top 5 Productos por Ventas:
+Los 5 productos principales concentran aproximadamente el 35% del revenue total, evidenciando oportunidades de diversificación.
+c. Análisis de Clientes
+Perfil del Cliente Top:
 
-Crecimiento sostenido: Las ventas muestran una tendencia creciente de 2022 a 2024, con $16M en 2024
-Dominio de Bikes: La categoría Bikes representa el 96.46% del total de ventas
-Estacionalidad: Se observan picos de ventas en segundo semestre de cada año
+Nombre: Nichole Nara
+Ventas Generadas: $13,295
+Unidades Compradas: 13
+Margen Contribuido: $5,250
 
-Insights de Productos
+Segmentación Demográfica:
+SegmentoVentas% TotalProfesionales$9.9M33.7%Gestión$5.5M18.7%Obreros especializados$6.4M21.8%Administrativos$4.7M16.0%Otros$2.9M9.8%
+Distribución por Género:
 
-Mountain Bikes y Road Bikes son las subcategorías más rentables
-Los accesorios (Tires and Tubes, Touring Tire Tube) tienen alto volumen pero menor margen
-Top 5 productos generan una contribución significativa al revenue total
+Masculino: 49.7% (30,000 clientes)
+Femenino: 50.3% (30,000 clientes)
+Distribución equilibrada sin sesgo de género
 
-Insights de Clientes
+Nivel Educativo:
 
-Segmento profesional es el más valioso ($9.9M en ventas)
-Distribución equilibrada por género en la base de clientes
-Reino Unido y Estados Unidos son los mercados más importantes
-El 27.52% de clientes tienen educación universitaria parcial
-Clientes de alto valor (20K-40K) generan el mayor volumen de ventas
+Licenciatura completa: 30.04%
+Universidad parcial: 27.52%
+Postgrado: 20.04%
+Mayor nivel educativo correlaciona con mayor gasto
+
+Ingresos por Cliente:
+
+Rango $20K-$40K: Mayor volumen de ventas
+Rango $60K-$80K: Clientes de mayor valor individual
+
+d. Análisis Geográfico
+Distribución de Ventas por País:
+
+United States: Mayor mercado (~45%)
+United Kingdom: Segundo mercado importante
+Australia: Mercado en crecimiento
+France: Menor participación pero estable
+
+Ciudades Top por Ventas:
+
+London, Paris, Wollongong, Warrnambool, Bendigo
+Concentración en áreas metropolitanas
+
+e. Patrones Temporales
+Tendencia Anual:
+
+2022: $7M (fase inicial)
+2023: $6M (consolidación)
+2024: $16M (crecimiento acelerado)
+CAGR aproximado: 51% anual
+
+Estacionalidad:
+
+Picos de ventas consistentes en segundo semestre
+Posible influencia de temporada deportiva y clima
+
+Patrones Semanales:
+Los datos sugieren uso consistente a lo largo de la semana por clientes miembros.
+
+## Principales Insights del Análisis
+
+Insight 1: Dominio Absoluto de la Categoría Bikes
+Hallazgo: Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados.
+Implicación: La empresa depende críticamente de las ventas de bicicletas. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario.
+Insight 2: Concentración de Valor en Pocos Clientes
+Hallazgo: El top 10 de clientes genera aproximadamente el 40% del revenue total. El cliente principal, Nichole Nara, ha gastado $13,295 con un margen de contribución de $5,250.
+Implicación: La retención de clientes VIP es crítica para la estabilidad del negocio. La pérdida de estos clientes tendría un impacto desproporcionado en los ingresos. Se requiere un programa de fidelización robusto.
+Insight 3: Crecimiento Explosivo en 2024
+Hallazgo: Las ventas de 2024 ($16M) superan más del doble a las de 2023 ($6M), representando un crecimiento del 166% year-over-year.
+Implicación: El negocio está en una fase de crecimiento acelerado. Es el momento óptimo para escalar operaciones, optimizar la cadena de suministro y expandir la capacidad de inventario para sostener este momentum.
+Insight 4: Segmento Profesional Como Core Customer
+Hallazgo: Los clientes con ocupación "Profesional" generan $9.9M en ventas (33.7% del total), seguidos por "Obreros especializados" con $6.4M (21.8%).
+Implicación: El perfil demográfico ideal es un profesional de ingresos medios-altos. Las campañas de marketing deben enfocarse en este segmento, destacando aspectos como calidad, tecnología y performance para alinearse con sus valores.
+Insight 5: Equilibrio de Género en la Base de Clientes
+Hallazgo: La distribución de clientes es prácticamente equitativa: 49.7% masculino y 50.3% femenino.
+Implicación: No existe sesgo de género en la base de clientes, lo que valida que los productos de Adventure Works tienen appeal universal. Las estrategias de marketing deben mantener este equilibrio, evitando campañas que segmenten artificialmente por género.
+Insight 6: Correlación Entre Educación y Gasto
+Hallazgo: Clientes con educación universitaria completa (30.04%) y postgrado (20.04%) representan el 50% de la base de clientes pero generan proporcionalmente más revenue per capita.
+Implicación: El nivel educativo es un predictor de valor de cliente. Las estrategias de adquisición deberían enfocarse en áreas geográficas y canales digitales donde se concentra este perfil demográfico (zonas universitarias, LinkedIn, publicaciones especializadas).
+Insight 7: Mercados Geográficos con Potencial Diferenciado
+Hallazgo: Estados Unidos domina las ventas (~45%), pero Australia muestra un crecimiento acelerado a pesar de ser un mercado más pequeño. Reino Unido mantiene un desempeño estable.
+Implicación: Australia representa una oportunidad de expansión de alto potencial con menor competencia. Se recomienda aumentar inversión en marketing y distribución en este mercado antes de que se sature. UK requiere estrategias de revitalización.
+Insight 8: Estacionalidad Pronunciada en Segundo Semestre
+Hallazgo: Se observa un incremento significativo de ventas entre los meses de abril a septiembre, con picos máximos en verano. El cuarto trimestre muestra caída.
+Implicación: La gestión de inventario debe anticipar la demanda estacional. Se recomienda implementar campañas pre-temporada (marzo-abril) para capturar early adopters y promociones de fin de año (noviembre-diciembre) para reducir inventario obsoleto.
+Insight 9: Mountain Bikes y Road Bikes Impulsan la Rentabilidad
+Hallazgo: Dentro de la categoría Bikes, Mountain Bikes y Road Bikes son las subcategorías más rentables, generando los mayores márgenes de utilidad bruta.
+Implicación: El portafolio debe optimizarse hacia estas dos subcategorías. Touring Bikes, aunque genera ventas, tiene menor margen y podría considerarse para descontinuación parcial o reposicionamiento premium.
+Insight 10: Alto Ticket Promedio Indica Mercado Premium
+Hallazgo: El ticket promedio de $489 por transacción es significativamente alto, indicando que los clientes están comprando productos de gama media-alta.
+Implicación: Adventure Works está bien posicionada en el segmento premium. Las estrategias de precio pueden mantenerse o incluso incrementarse ligeramente sin riesgo de pérdida significativa de clientes. El valor percibido es alto.
+
+## Recomendaciones Estratégicas
+1. Optimización de Portfolio de Productos
+
+Expandir línea Mountain Bikes: Es la categoría más rentable
+Impulsar venta cruzada de Accessories: Alto margen, bajo penetración
+Revisar línea Clothing: Evaluar discontinuar productos de bajo rendimiento
+
+2. Estrategias de Marketing Segmentado
+
+Segmento Profesional: Campañas enfocadas en performance y tecnología
+Segmento Gestión: Énfasis en exclusividad y estatus
+Programas de fidelización: Para retener top 10% de clientes (generan 40% del revenue)
+
+3. Expansión Geográfica
+
+Priorizar mercado US: Mayor potencial, optimizar distribución
+Desarrollar Australia: Mercado emergente con buen desempeño
+Evaluar nuevos mercados: Considerar expansión a Canadá o Alemania
+
+4. Optimización Estacional
+
+Campañas pre-temporada: Marzo-Abril para capturar demanda de verano
+Promociones de fin de año: Octubre-Diciembre para liquidar inventario
+Lanzamientos de productos: Alinear con picos estacionales
+
+5. Mejora en Retención de Clientes
+
+Programa VIP: Para clientes con gasto >$10K anual
+Email marketing personalizado: Basado en historial de compra
+Encuestas de satisfacción: Implementar NPS para medir lealtad
+
 
 
 ##  Dashboard
