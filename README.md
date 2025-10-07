@@ -1,4 +1,5 @@
- Adventure Works 2022 - Análisis Integral de Ventas
+### 🚴‍♂️ Adventure Works - Análisis Integral de Ventas
+
 ## Descripción del Proyecto
 Adventure Works es una empresa multinacional de fabricación y venta de bicicletas y accesorios deportivos. Este proyecto presenta un análisis exhaustivo de datos de ventas, clientes y productos del período 2022-2024, implementando un modelo dimensional en Power BI para proporcionar insights accionables al equipo directivo.
 El análisis se enfoca en identificar patrones de ventas, productos más rentables, segmentación de clientes y tendencias geográficas para optimizar estrategias comerciales y maximizar la rentabilidad.
@@ -161,33 +162,51 @@ Los datos sugieren uso consistente a lo largo de la semana por clientes miembros
 Insight 1: Dominio Absoluto de la Categoría Bikes
 Hallazgo: Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados.
 Implicación: La empresa depende críticamente de las ventas de bicicletas. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario.
+
+
 Insight 2: Concentración de Valor en Pocos Clientes
 Hallazgo: El top 10 de clientes genera aproximadamente el 40% del revenue total. El cliente principal, Nichole Nara, ha gastado $13,295 con un margen de contribución de $5,250.
 Implicación: La retención de clientes VIP es crítica para la estabilidad del negocio. La pérdida de estos clientes tendría un impacto desproporcionado en los ingresos. Se requiere un programa de fidelización robusto.
+
+
 Insight 3: Crecimiento Explosivo en 2024
 Hallazgo: Las ventas de 2024 ($16M) superan más del doble a las de 2023 ($6M), representando un crecimiento del 166% year-over-year.
 Implicación: El negocio está en una fase de crecimiento acelerado. Es el momento óptimo para escalar operaciones, optimizar la cadena de suministro y expandir la capacidad de inventario para sostener este momentum.
+
 Insight 4: Segmento Profesional Como Core Customer
 Hallazgo: Los clientes con ocupación "Profesional" generan $9.9M en ventas (33.7% del total), seguidos por "Obreros especializados" con $6.4M (21.8%).
 Implicación: El perfil demográfico ideal es un profesional de ingresos medios-altos. Las campañas de marketing deben enfocarse en este segmento, destacando aspectos como calidad, tecnología y performance para alinearse con sus valores.
+
+
 Insight 5: Equilibrio de Género en la Base de Clientes
 Hallazgo: La distribución de clientes es prácticamente equitativa: 49.7% masculino y 50.3% femenino.
 Implicación: No existe sesgo de género en la base de clientes, lo que valida que los productos de Adventure Works tienen appeal universal. Las estrategias de marketing deben mantener este equilibrio, evitando campañas que segmenten artificialmente por género.
+
+
 Insight 6: Correlación Entre Educación y Gasto
 Hallazgo: Clientes con educación universitaria completa (30.04%) y postgrado (20.04%) representan el 50% de la base de clientes pero generan proporcionalmente más revenue per capita.
 Implicación: El nivel educativo es un predictor de valor de cliente. Las estrategias de adquisición deberían enfocarse en áreas geográficas y canales digitales donde se concentra este perfil demográfico (zonas universitarias, LinkedIn, publicaciones especializadas).
+
+
 Insight 7: Mercados Geográficos con Potencial Diferenciado
 Hallazgo: Estados Unidos domina las ventas (~45%), pero Australia muestra un crecimiento acelerado a pesar de ser un mercado más pequeño. Reino Unido mantiene un desempeño estable.
 Implicación: Australia representa una oportunidad de expansión de alto potencial con menor competencia. Se recomienda aumentar inversión en marketing y distribución en este mercado antes de que se sature. UK requiere estrategias de revitalización.
+
+
 Insight 8: Estacionalidad Pronunciada en Segundo Semestre
 Hallazgo: Se observa un incremento significativo de ventas entre los meses de abril a septiembre, con picos máximos en verano. El cuarto trimestre muestra caída.
 Implicación: La gestión de inventario debe anticipar la demanda estacional. Se recomienda implementar campañas pre-temporada (marzo-abril) para capturar early adopters y promociones de fin de año (noviembre-diciembre) para reducir inventario obsoleto.
+
+
 Insight 9: Mountain Bikes y Road Bikes Impulsan la Rentabilidad
 Hallazgo: Dentro de la categoría Bikes, Mountain Bikes y Road Bikes son las subcategorías más rentables, generando los mayores márgenes de utilidad bruta.
 Implicación: El portafolio debe optimizarse hacia estas dos subcategorías. Touring Bikes, aunque genera ventas, tiene menor margen y podría considerarse para descontinuación parcial o reposicionamiento premium.
+
+
 Insight 10: Alto Ticket Promedio Indica Mercado Premium
 Hallazgo: El ticket promedio de $489 por transacción es significativamente alto, indicando que los clientes están comprando productos de gama media-alta.
 Implicación: Adventure Works está bien posicionada en el segmento premium. Las estrategias de precio pueden mantenerse o incluso incrementarse ligeramente sin riesgo de pérdida significativa de clientes. El valor percibido es alto.
+
 
 ## Recomendaciones Estratégicas
 1. Optimización de Portfolio de Productos
