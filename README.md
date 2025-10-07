@@ -8,7 +8,6 @@ Decidí enfocarme en lo más importante para cualquier empresa: Saber dónde est
 
 Lo mejor de este proyecto es que pude demostrar todo el proceso, desde la limpieza del dato hasta el insight final.
 
----
 ## Titulo del Proyecto
 “Análisis de Ventas Adventure Works (2022–2024): Rentabilidad, Clientes y Oportunidades de Crecimiento”
 Desarrollo de un dashboard ejecutivo en Power BI para el análisis integral del desempeño comercial de Adventure Works, abarcando ventas, costos, utilidad, clientes y productos entre 2022 y 2024.
@@ -16,7 +15,7 @@ Desarrollo de un dashboard ejecutivo en Power BI para el análisis integral del 
 ## Objetivo del Proyecto:
 Analizar la evolución de las ventas, costos y rentabilidad de Adventure Works entre 2022 y 2024, identificando los productos, países y segmentos de clientes más rentables para apoyar la toma de decisiones comerciales.
 
-# Objetivos específicos:
+Objetivos específicos:
 
 -Evaluar la rentabilidad por categoría y subcategoría de producto.
 -Analizar el comportamiento temporal de ventas y costos.
