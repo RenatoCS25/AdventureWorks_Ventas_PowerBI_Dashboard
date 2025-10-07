@@ -30,13 +30,19 @@ Visualizar KPIs clave mediante dashboards interactivos para la toma de decisione
 # a. Preparación de Datos
 
 Fuente de Datos: Base de datos AdventureWorks2022 (Microsoft SQL Server)
+
 -Tablas Principales:
 
 FactInternetSales: ~60,000 registros de transacciones
+
 DimCustomer: 18,000 clientes únicos
+
 DimProduct: Catálogo completo de productos
+
 DimProductCategory y DimProductSubcategory: Jerarquías de productos
+
 DimGeography: Datos geográficos (países, estados, ciudades)
+
 DimDate: Tabla calendario para análisis temporal
 
 Integración: Los datos fueron importados a Power BI y se estableció un modelo relacional tipo Star Schema para optimizar el rendimiento de las consultas.
