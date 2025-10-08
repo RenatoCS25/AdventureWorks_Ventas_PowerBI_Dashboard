@@ -40,7 +40,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 ### Modelado
 Los datos se importaron a Power BI implementando un modelo dimensional tipo estrella (Star Schema) para optimizar consultas y relaciones.
 
-## 3. Fase PROCESS – Limpieza y Transformación
+## 3. Fase Procesar – Limpieza y Transformación
 ### Exploración Inicial
 •	Revisión de estructura, relaciones y llaves primarias/foráneas
 •	Detección de duplicados y valores nulos
@@ -55,7 +55,7 @@ Los datos se importaron a Power BI implementando un modelo dimensional tipo estr
 •	Jerarquías temporales: Año → Trimestre → Mes
 •	Segmentación de clientes por ingreso y ocupación
 
-## 4. Fase ANALYZE – Análisis y Descubrimiento de Insights
+## 4. Fase Analizar – Análisis y Descubrimiento de Insights
 
 ### Métricas Principales (DAX)
 Ventas Totales = SUM(FactInternetSales[SalesAmount])
@@ -79,7 +79,7 @@ Utilidad Bruta	$12.08M	Margen saludable del 41.2%
 Clientes Únicos	18,000	Base de clientes sólida
 Ticket Promedio	$489	Mercado de gama media-alta
 
-## 5. Fase SHARE – Comunicación de Resultados
+## 5. Fase Compartir – Comunicación de Resultados
 ### Dashboards en Power BI
 1.	Resumen Ejecutivo: KPIs principales, tendencia anual, distribución geográfica.
 2.	Productos: Rentabilidad por categoría/subcategoría y análisis temporal.
@@ -91,7 +91,7 @@ Ticket Promedio	$489	Mercado de gama media-alta
 (Incluye imágenes o enlaces al dashboard)
 ________________________________________
 
-## 6. Fase ACT – Conclusiones y Recomendaciones
+## 6. Fase Actuar – Conclusiones y Recomendaciones
 
 ### a). Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
