@@ -85,9 +85,6 @@ Ticket Promedio	$489	Mercado de gama media-alta
 2.	Productos: Rentabilidad por categoría/subcategoría y análisis temporal.
 3.	Clientes: Segmentación demográfica, top clientes, y comportamiento de compra.
 ### Visualización:
-•	Filtros interactivos por año, categoría y región.
-•	Navegación mediante botones temáticos.
-•	Enfoque UX/UI profesional y minimalista.
 <img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
 <img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
