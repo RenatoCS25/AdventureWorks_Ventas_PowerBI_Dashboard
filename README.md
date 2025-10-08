@@ -87,84 +87,20 @@ Comparación año contra año (YoY)
 Se desarrollaron 3 dashboards interactivos en Power BI con filtros dinámicos por fecha y categoría.
 
 ## Resultados
-### a. KPIs Principales del Negocio
-MétricaValorInsightVentas Totales$29.36MCrecimiento sostenido 2022-2024Costo Total$17.28MEficiencia operativa del 59%Utilidad Bruta$12.08MMargen saludable del 41.2%Total Pedidos60,000Alto volumen de transaccionesClientes Únicos18,000Base de clientes sólidaTicket Promedio$489Valor alto por transacción
+Ventas totales: $29.3M (crecimiento sostenido 2022–2024).
 
-### b. Análisis de Productos
-Desempeño por Categoría: Bikes - $28.3M (96.46% de ventas)
-Mountain Bikes: Categoría líder en ventas
-Road Bikes: Segunda categoría más rentable
-Touring Bikes: Menor participación pero alto margen
-Accessories - $700K (2.38%)
-Tires and Tubes: Mayor volumen
-Alto potencial de venta cruzada
-Clothing - $339K (1.15%)
-Complemento de línea de productos
+Margen bruto: 41%, reflejando buena rentabilidad.
 
-Top 5 Productos por Ventas:
-Los 5 productos principales concentran aproximadamente el 35% del revenue total, evidenciando oportunidades de diversificación.
+Categoría líder: Bikes (96% de ventas), especialmente Mountain Bikes.
 
-### c. Análisis de Clientes
-- Perfil del Cliente Top:
+Clientes: 18,000 únicos, con ticket promedio de $489.
 
-Nombre: Nichole Nara
-Ventas Generadas: $13,295
-Unidades Compradas: 13
-Margen Contribuido: $5,250
+Segmentos principales: Profesionales y gestión (52% de las ventas).
 
-- Segmentación Demográfica:
-Profesionales $9.9M con 33.7% del total
-Gestión $5.5 M con 18.7% del total
-Obreros especializados $6.4M con 21.8% del total
-Administrativos $4.7M con 16.0% del total
-Otros $2.9M con 9.8% del total
+Mercados clave: EE. UU., Reino Unido y Australia (en expansión).
 
--  Distribución por Género:
+Tendencia temporal: crecimiento acelerado y fuerte estacionalidad en el segundo semestre.
 
-Masculino: 49.7% (30,000 clientes)
-Femenino: 50.3% (30,000 clientes)
-Distribución equilibrada sin sesgo de género
-
-- Nivel Educativo:
-
-Licenciatura completa: 30.04%
-Universidad parcial: 27.52%
-Postgrado: 20.04%
-Mayor nivel educativo correlaciona con mayor gasto
-
-- Ingresos por Cliente:
-
-Rango $20K-$40K: Mayor volumen de ventas
-Rango $60K-$80K: Clientes de mayor valor individual
-
-### d. Análisis Geográfico
-- Distribución de Ventas por País:
-
-United States: Mayor mercado (~45%)
-United Kingdom: Segundo mercado importante
-Australia: Mercado en crecimiento
-France: Menor participación pero estable
-
-- Ciudades Top por Ventas:
-
-London, Paris, Wollongong, Warrnambool, Bendigo
-Concentración en áreas metropolitanas
-
-### e. Patrones Temporales
-- Tendencia Anual:
-
-2022: $7M (fase inicial)
-2023: $6M (consolidación)
-2024: $16M (crecimiento acelerado)
-CAGR aproximado: 51% anual
-
-- Estacionalidad:
-
-Picos de ventas consistentes en segundo semestre
-Posible influencia de temporada deportiva y clima
-
-- Patrones Semanales:
-Los datos sugieren uso consistente a lo largo de la semana por clientes miembros.
 
 ## Principales Insights del Análisis
 
