@@ -94,7 +94,7 @@ Ticket Promedio	$489	Mercado de gama media-alta
 ### a). Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
 
-Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados. Este hallazgo revela que la empresa depende críticamente de las ventas de bicicletas, lo cual representa tanto una fortaleza como un riesgo de concentración. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario. La diversificación del portafolio podría mejorar la estabilidad del negocio y reducir la vulnerabilidad ante cambios en la demanda de bicicletas.
+Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados. Este revela que la empresa depende críticamente de las ventas de bicicletas, lo cual representa tanto una fortaleza como un riesgo de concentración. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario. La diversificación del portafolio podría mejorar la estabilidad del negocio y reducir la vulnerabilidad ante cambios en la demanda de bicicletas.
 
 2. Concentración de Valor en Pocos Clientes
 
@@ -104,13 +104,13 @@ El análisis reveló que el top 10 de clientes genera aproximadamente el 40% del
 
 Las ventas de 2024 ($16M) superan más del doble a las de 2023 ($6M), representando un crecimiento extraordinario del 166% year-over-year. Este patrón indica que el negocio está en una fase de crecimiento acelerado y expansión de mercado. Este momentum presenta el momento óptimo para escalar operaciones, optimizar la cadena de suministro y expandir la capacidad de inventario. Es crucial capitalizar este crecimiento mediante inversiones estratégicas en infraestructura, marketing y expansión geográfica antes de que el mercado alcance su punto de saturación.
 
-4. Segmento Profesional Como Core Customer
+4. Segmento Profesional como cliente principal
 
-Los clientes con ocupación "Profesional" generan $9.9M en ventas (33.7% del total), seguidos por "Obreros especializados" con $6.4M (21.8%). Este hallazgo define claramente que el perfil demográfico ideal es un profesional de ingresos medios-altos con poder adquisitivo y disposición para invertir en productos de calidad. Las campañas de marketing deben enfocarse estratégicamente en este segmento, destacando aspectos como calidad, tecnología, performance y durabilidad que se alinean con sus valores y expectativas. El messaging debe reflejar aspiraciones profesionales y estilo de vida activo.
+Los clientes con ocupación profesional generan $9.9M en ventas (33.7% del total), seguidos por "Obreros especializados" con $6.4M (21.8%). Este hallazgo define claramente que el perfil demográfico ideal es un profesional de ingresos medios-altos con poder adquisitivo y disposición para invertir en productos de calidad. Las campañas de marketing deben enfocarse estratégicamente en este segmento, destacando aspectos como calidad, tecnología, performance y durabilidad que se alinean con sus valores y expectativas. El messaging debe reflejar aspiraciones profesionales y estilo de vida activo.
 
 5. Equilibrio de Género en la Base de Clientes
 
-La distribución de clientes es prácticamente equitativa con 49.7% masculino y 50.3% femenino, lo cual es notable en una industria tradicionalmente sesgada. Este equilibrio valida que los productos de Adventure Works tienen appeal universal y que las estrategias de producto y marketing han sido efectivas en atraer a ambos géneros por igual. Las futuras estrategias de marketing deben mantener cuidadosamente este equilibrio, evitando campañas que segmenten artificialmente por género y en su lugar enfocándose en beneficios universales como salud, aventura y calidad de vida.
+La distribución de clientes es prácticamente equitativa con 49.7% masculino y 50.3% femenino, lo cual es notable en una industria tradicionalmente sesgada. Este equilibrio valida que los productos de Adventure Works tienen atractivo universal y que las estrategias de producto y marketing han sido efectivas en atraer a ambos géneros por igual. Las futuras estrategias de marketing deben mantener cuidadosamente este equilibrio, evitando campañas que segmenten artificialmente por género y en su lugar enfocándose en beneficios universales como salud, aventura y calidad de vida.
 
 6. Correlación Entre Educación y Gasto
 
