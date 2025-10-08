@@ -88,8 +88,9 @@ Ticket Promedio	$489	Mercado de gama media-alta
 •	Filtros interactivos por año, categoría y región.
 •	Navegación mediante botones temáticos.
 •	Enfoque UX/UI profesional y minimalista.
-(Incluye imágenes o enlaces al dashboard)
-________________________________________
+<img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
+<img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
 
 ## 6. Fase Actuar – Conclusiones y Recomendaciones
 
@@ -140,13 +141,6 @@ Las ventas son muy estacionales, por lo que se sugiere una gestión más dinámi
  5. Retención de Clientes
 
 El 10% de los clientes genera el 40% del revenue, por lo que es clave un programa VIP con niveles (Silver, Gold, Platinum) y beneficios crecientes como descuentos, eventos exclusivos y atención personalizada. Además, usar email marketing personalizado según historial de compra y aplicar un sistema NPS para medir satisfacción y prevenir la pérdida de clientes valiosos.
-
-
-##  Dashboard
-<img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
-<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
-<img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
-
 
 
 ##  Herramientas que Usé
