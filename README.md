@@ -55,7 +55,7 @@ Los datos se importaron a Power BI implementando un modelo dimensional tipo estr
 •	Jerarquías temporales: Año → Trimestre → Mes
 •	Segmentación de clientes por ingreso y ocupación
 
-## Fase ANALYZE – Análisis y Descubrimiento de Insights
+## 4. Fase ANALYZE – Análisis y Descubrimiento de Insights
 
 ### Métricas Principales (DAX)
 Ventas Totales = SUM(FactInternetSales[SalesAmount])
