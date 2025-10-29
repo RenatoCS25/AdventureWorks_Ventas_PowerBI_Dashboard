@@ -23,34 +23,35 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 5. ¿Existen patrones estacionales en las ventas que puedan aprovecharse?
 
 
-## 2. Preparacion – Recolección y Comprensión de los Datos
+##  Metodologia
+### 1. Preparacion – Recolección y Comprensión de los Datos
 
-### Fuente de Datos
+#### Fuente de Datos
 •	Dataset: AdventureWorks2022 (Microsoft SQL Server Sample Database)
 •	Período Analizado: 2022 – 2024
 •	Origen: Archivos de base de datos .BAK (AdventureWorks2022.bak)
 
-### Tablas Principales
+#### Tablas Principales
 •	FactInternetSales – 60,000 transacciones
 •	DimCustomer – 18,000 clientes únicos
 •	DimProduct / DimProductCategory / DimProductSubcategory – Jerarquías de productos
 •	DimGeography – Ubicación geográfica de clientes
 •	DimDate – Dimensión temporal
 
-### Modelado
+#### Modelado
 Los datos se importaron a Power BI implementando un modelo dimensional tipo estrella (Star Schema) para optimizar consultas y relaciones.
 
-## 3. Procesar – Limpieza y Transformación
-### Exploración Inicial
+### 2. Procesar – Limpieza y Transformación
+#### Exploración Inicial
 •	Revisión de estructura, relaciones y llaves primarias/foráneas
 •	Detección de duplicados y valores nulos
 •	Verificación de tipos de datos y consistencia
-### Limpieza de Datos
+#### Limpieza de Datos
 •	Eliminación de duplicados
 •	Estandarización de nombres y formatos
 •	Reemplazo de valores nulos en campos críticos
 •	Validación de montos y fechas
-### Transformaciones
+#### Transformaciones
 •	Columnas calculadas: Utilidad Bruta, Margen %
 •	Jerarquías temporales: Año → Trimestre → Mes
 •	Segmentación de clientes por ingreso y ocupación
