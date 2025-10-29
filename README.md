@@ -24,37 +24,17 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 
 
 ## 2. Metodologia
-### 1. Preparacion – Recolección y Comprensión de los Datos
 
-#### Fuente de Datos
-•	Dataset: AdventureWorks2022 (Microsoft SQL Server Sample Database)
-•	Período Analizado: 2022 – 2024
-•	Origen: Archivos de base de datos .BAK (AdventureWorks2022.bak)
+### 1. Preparación de los Datos  
+Los datos provienen del **dataset AdventureWorks2022**, una base de ejemplo de **Microsoft SQL Server (.BAK)** que abarca el período **2022–2024**.  
+Se emplearon las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**, conformando un **modelo dimensional tipo estrella (Star Schema)** importado a Power BI para optimizar consultas y relaciones.
 
-#### Tablas Principales
-•	FactInternetSales – 60,000 transacciones
-•	DimCustomer – 18,000 clientes únicos
-•	DimProduct / DimProductCategory / DimProductSubcategory – Jerarquías de productos
-•	DimGeography – Ubicación geográfica de clientes
-•	DimDate – Dimensión temporal
+### 2. Limpieza y Transformación  
+Se realizó una exploración inicial para validar estructura, relaciones y calidad de los datos.  
+Posteriormente se aplicaron procesos de:
 
-#### Modelado
-Los datos se importaron a Power BI implementando un modelo dimensional tipo estrella (Star Schema) para optimizar consultas y relaciones.
-
-### 2. Procesar – Limpieza y Transformación
-#### Exploración Inicial
-•	Revisión de estructura, relaciones y llaves primarias/foráneas
-•	Detección de duplicados y valores nulos
-•	Verificación de tipos de datos y consistencia
-#### Limpieza de Datos
-•	Eliminación de duplicados
-•	Estandarización de nombres y formatos
-•	Reemplazo de valores nulos en campos críticos
-•	Validación de montos y fechas
-#### Transformaciones
-•	Columnas calculadas: Utilidad Bruta, Margen %
-•	Jerarquías temporales: Año → Trimestre → Mes
-•	Segmentación de clientes por ingreso y ocupación
+- **Limpieza:** eliminación de duplicados, corrección de formatos y tratamiento de valores nulos.  
+- **Transformación:** creación de columnas calculadas (*Utilidad Bruta*, *Margen %*), jerarquías temporales (*Año → Trimestre → Mes*) y segmentación de clientes por nivel de ingreso y ocupación.
 
 ## 3.  Análisis y Descubrimiento de Insights
 
