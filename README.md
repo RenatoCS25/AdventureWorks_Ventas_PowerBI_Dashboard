@@ -1,6 +1,6 @@
 # 🚴‍♂️ Adventure Works - Análisis Integral de Ventas
 
-## 1. Fase Preguntar – Definir el Problema y los Objetivos
+## 1. Definicion del Problema y los Objetivos
 ### Contexto del Negocio
 Adventure Works es una empresa multinacional de fabricación y venta de bicicletas y accesorios deportivos. Este proyecto presenta un análisis exhaustivo de datos de ventas, clientes y productos del período 2022-2024, implementando un modelo dimensional en Power BI para proporcionar insights accionables al equipo directivo.
 El análisis se enfoca en identificar patrones de ventas, productos más rentables, segmentación de clientes y tendencias geográficas para optimizar estrategias comerciales y maximizar la rentabilidad.
@@ -23,7 +23,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 5. ¿Existen patrones estacionales en las ventas que puedan aprovecharse?
 
 
-## 2. Fase Preparar – Recolección y Comprensión de los Datos
+## 2. Preparacion – Recolección y Comprensión de los Datos
 
 ### Fuente de Datos
 •	Dataset: AdventureWorks2022 (Microsoft SQL Server Sample Database)
@@ -40,7 +40,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 ### Modelado
 Los datos se importaron a Power BI implementando un modelo dimensional tipo estrella (Star Schema) para optimizar consultas y relaciones.
 
-## 3. Fase Procesar – Limpieza y Transformación
+## 3. Procesar – Limpieza y Transformación
 ### Exploración Inicial
 •	Revisión de estructura, relaciones y llaves primarias/foráneas
 •	Detección de duplicados y valores nulos
@@ -55,7 +55,7 @@ Los datos se importaron a Power BI implementando un modelo dimensional tipo estr
 •	Jerarquías temporales: Año → Trimestre → Mes
 •	Segmentación de clientes por ingreso y ocupación
 
-## 4. Fase Analizar – Análisis y Descubrimiento de Insights
+## 4.  Análisis y Descubrimiento de Insights
 
 ### Métricas Principales (DAX)
 Ventas Totales = SUM(FactInternetSales[SalesAmount])
@@ -79,7 +79,7 @@ Utilidad Bruta	$12.08M	Margen saludable del 41.2%
 Clientes Únicos	18,000	Base de clientes sólida
 Ticket Promedio	$489	Mercado de gama media-alta
 
-## 5. Fase Compartir – Comunicación de Resultados
+## 5. Comunicación de Resultados
 ### Dashboards en Power BI
 1.	Resumen Ejecutivo: KPIs principales, tendencia anual, distribución geográfica.
 2.	Productos: Rentabilidad por categoría/subcategoría y análisis temporal.
@@ -89,7 +89,7 @@ Ticket Promedio	$489	Mercado de gama media-alta
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
 <img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
 
-## 6. Fase Actuar – Conclusiones y Recomendaciones
+## 6. Conclusiones y Recomendaciones
 
 ### a). Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
