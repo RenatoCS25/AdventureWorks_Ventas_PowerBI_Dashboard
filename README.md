@@ -89,9 +89,7 @@ Ticket Promedio	$489	Mercado de gama media-alta
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
 <img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
 
-## 6. Conclusiones y Recomendaciones
-
-### a). Principales Insights
+## Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
 
 Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados. Este revela que la empresa depende críticamente de las ventas de bicicletas, lo cual representa tanto una fortaleza como un riesgo de concentración. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario. La diversificación del portafolio podría mejorar la estabilidad del negocio y reducir la vulnerabilidad ante cambios en la demanda de bicicletas.
@@ -117,7 +115,7 @@ La distribución de clientes es prácticamente equitativa con 49.7% masculino y 
 Los clientes con educación universitaria completa (30.04%) y postgrado (20.04%) representan el 50% de la base de clientes pero generan proporcionalmente más revenue per capita que otros segmentos educativos. Este patrón sugiere que el nivel educativo es un predictor confiable del valor de vida del cliente (CLV). Las estrategias de adquisición deberían enfocarse geográfica y digitalmente en áreas donde se concentra este perfil demográfico, tales como zonas universitarias, distritos empresariales, y canales como LinkedIn y publicaciones especializadas. El contenido de marketing debe reflejar sofisticación y conocimiento técnico que resuene con este público educado.
 
 
-### b). Recomendaciones Estratégicas
+## Recomendaciones Estratégicas
 
  1. Optimización del Portafolio de Productos
 
