@@ -26,7 +26,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 ## 2. Metodologia
 
 ### 1. Preparación de los Datos  
-Los datos provienen del **dataset AdventureWorks2022**, una base de ejemplo de **Microsoft SQL Server (.BAK)** que abarca el período **2022–2024**.  
+Los datos provienen del dataset AdventureWorks2022, una base de ejemplo de Microsoft SQL Server (.BAK) que abarca el período 2022–2024.  
 Se emplearon las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**, conformando un **modelo dimensional tipo estrella (Star Schema)** importado a Power BI para optimizar consultas y relaciones.
 
 ### 2. Limpieza y Transformación  
