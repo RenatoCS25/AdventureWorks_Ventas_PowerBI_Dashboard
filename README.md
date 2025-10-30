@@ -28,7 +28,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 La metodología se estructuró en tres fases: **preparación**, **transformación** y **análisis** de los datos.
 
 ### 1. Preparación de los Datos
-Se utilizó el dataset **AdventureWorks2022** (Microsoft SQL Server, 2022–2024), empleando las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**.  
+Se utilizó el dataset AdventureWorks2022 (Microsoft SQL Server, 2022–2024), empleando las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**.  
 El modelo se diseñó bajo un **esquema estrella (Star Schema)** e importó a **Power BI** para optimizar relaciones y consultas.
 
 ### 2. Limpieza y Transformación
@@ -38,7 +38,7 @@ Se validó la estructura y calidad de los datos mediante:
 
 ### 3. Análisis e Insights
 Se desarrollaron medidas **DAX** clave como:  
-`Ventas Totales`, `Costo Total`, `Utilidad Bruta`, `Margen %` y `Clientes Únicos`.  
+Ventas Totales, Costo Total, Utilidad Bruta, Margen % y Clientes Únicos.  
 
 El análisis incluyó:
 - Tendencias temporales (YoY, CAGR)  
