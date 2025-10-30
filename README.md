@@ -25,40 +25,38 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 
 ## 2. Metodologia
 
-### 1. Preparación de los Datos  
-Los datos provienen del dataset AdventureWorks2022, una base de ejemplo de Microsoft SQL Server (.BAK) que abarca el período 2022–2024.  
-Se emplearon las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**, conformando un **modelo dimensional tipo estrella (Star Schema)** importado a Power BI para optimizar consultas y relaciones.
+La metodología se estructuró en tres fases: **preparación**, **transformación** y **análisis** de los datos.
 
-### 2. Limpieza y Transformación  
-Se realizó una exploración inicial para validar estructura, relaciones y calidad de los datos.  
-Posteriormente se aplicaron procesos de:
+### 1. Preparación de los Datos
+Se utilizó el dataset **AdventureWorks2022** (Microsoft SQL Server, 2022–2024), empleando las tablas **FactInternetSales**, **DimCustomer**, **DimProduct**, **DimGeography** y **DimDate**.  
+El modelo se diseñó bajo un **esquema estrella (Star Schema)** e importó a **Power BI** para optimizar relaciones y consultas.
 
-- **Limpieza:** eliminación de duplicados, corrección de formatos y tratamiento de valores nulos.  
+### 2. Limpieza y Transformación
+Se validó la estructura y calidad de los datos mediante:
+- **Limpieza:** eliminación de duplicados, corrección de formatos y manejo de valores nulos.  
 - **Transformación:** creación de columnas calculadas (*Utilidad Bruta*, *Margen %*), jerarquías temporales (*Año → Trimestre → Mes*) y segmentación de clientes por nivel de ingreso y ocupación.
 
-## 3.  Análisis y Descubrimiento de Insights
+### 3. Análisis e Insights
+Se desarrollaron medidas **DAX** clave como:  
+`Ventas Totales`, `Costo Total`, `Utilidad Bruta`, `Margen %` y `Clientes Únicos`.  
 
-### Métricas Principales (DAX)
-Ventas Totales = SUM(FactInternetSales[SalesAmount])
-Costo Total = SUM(FactInternetSales[TotalProductCost])
-Utilidad Bruta = [Ventas Totales] - [Costo Total]
-Margen % = DIVIDE([Utilidad Bruta], [Ventas Totales], 0)
-Clientes Únicos = DISTINCTCOUNT(FactInternetSales[CustomerKey])
-
-### Tipos de Análisis Realizados
-•	Tendencias temporales (YoY, CAGR, estacionalidad)
-•	Análisis de Pareto (80/20) por productos
-•	Segmentación RFM de clientes
-•	Análisis geográfico de ventas
-•	Comparación de rentabilidad por categoría
+El análisis incluyó:
+- Tendencias temporales (YoY, CAGR)  
+- Análisis Pareto (80/20)  
+- Segmentación RFM de clientes  
+- Análisis geográfico de ventas  
+- Rentabilidad por categoría  
 
 ### KPIs Principales
-Métrica	Valor	Insight
-Ventas Totales	$29.36M	Crecimiento sostenido 2022–2024
-Costo Total	$17.28M	Eficiencia operativa del 59%
-Utilidad Bruta	$12.08M	Margen saludable del 41.2%
-Clientes Únicos	18,000	Base de clientes sólida
-Ticket Promedio	$489	Mercado de gama media-alta
+
+| Métrica | Valor | Insight |
+|----------|--------|----------|
+| Ventas Totales | $29.36M | Crecimiento sostenido |
+| Costo Total | $17.28M | Eficiencia operativa del 59% |
+| Utilidad Bruta | $12.08M | Margen saludable del 41.2% |
+| Clientes Únicos | 18,000 | Base de clientes sólida |
+| Ticket Promedio | $489 | Mercado de gama media-alta |
+
 
 ## 4. Comunicación de Resultados
 ### Dashboards en Power BI
