@@ -23,7 +23,7 @@ El análisis se enfoca en identificar patrones de ventas, productos más rentabl
 5. ¿Existen patrones estacionales en las ventas que puedan aprovecharse?
 
 
-## 2. Metodologia
+## 3. Metodologia
 
 La metodología se estructuró en tres fases: **preparación**, **transformación** y **análisis** de los datos.
 
