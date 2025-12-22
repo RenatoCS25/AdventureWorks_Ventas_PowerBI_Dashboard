@@ -72,7 +72,7 @@ El análisis incluyó:
 ## 4. Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
 
-Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados. Este revela que la empresa depende críticamente de las ventas de bicicletas, lo cual representa tanto una fortaleza como un riesgo de concentración. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario. La diversificación del portafolio podría mejorar la estabilidad del negocio y reducir la vulnerabilidad ante cambios en la demanda de bicicletas.
+Las bicicletas concentran el 96.46% de las ventas, evidenciando una alta dependencia de esta categoría, lo que representa una fortaleza comercial pero también un riesgo de concentración frente a cambios en la demanda.
 
 2. Mayor margen de la bicicletas de montaña
    
