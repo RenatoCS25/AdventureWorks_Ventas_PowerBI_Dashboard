@@ -74,7 +74,8 @@ El análisis incluyó:
 
 Las bicicletas representan el 96.46% del total de ventas ($28.3M), mientras que Accessories y Clothing solo contribuyen con 3.54% combinados. Este revela que la empresa depende críticamente de las ventas de bicicletas, lo cual representa tanto una fortaleza como un riesgo de concentración. Existe una oportunidad significativa para incrementar la venta cruzada de accesorios y ropa, que típicamente tienen márgenes más altos y menor costo de inventario. La diversificación del portafolio podría mejorar la estabilidad del negocio y reducir la vulnerabilidad ante cambios en la demanda de bicicletas.
 
-2. Mayor margen de la bicicletas de montaña 
+2. Mayor margen de la bicicletas de montaña
+   
 Las bicicletas de montaña destacan por tener el mayor margen de rentabilidad, pero su volumen de ventas es 38% menor que el de las bicicletas de carretera, lo que sugiere una oportunidad de crecimiento enfocada en aumentar unidades sin sacrificar margen.
 
 3. Crecimiento Explosivo en 2024
@@ -97,7 +98,7 @@ Los clientes con educación universitaria y postgrado representan el 50% de la b
 
  1. Optimización del Portafolio de Productos
 
-Actualmente, el 96.46% de las ventas provienen de la categoría Bikes, lo que representa una fuerte dependencia. Se recomienda diversificar promoviendo la línea de Mountain Bikes (la más rentable) y fomentando la venta de accesorios y ropa junto con cada bicicleta. Promociones del tipo “compra una bici y obtén 20% en accesorios” pueden aumentar la venta cruzada. También se sugiere revisar la línea de ropa y eliminar productos con bajo rendimiento para concentrar recursos en categorías más rentables.
+Actualmente, el 96.46% de las ventas provienen de la categoría Bikes, lo que representa una fuerte dependencia. Se recomienda diversificar promoviendo la línea de Mountain Bikes (la más rentable) y fomentando la venta de accesorios y ropa junto con cada bicicleta. Promociones del tipo "compra una bici y obtén 20% en accesorios" pueden aumentar la venta cruzada. También se sugiere revisar la línea de ropa y eliminar productos con bajo rendimiento para concentrar recursos en categorías más rentables.
 
  2. Estrategias de Marketing Segmentado
 
