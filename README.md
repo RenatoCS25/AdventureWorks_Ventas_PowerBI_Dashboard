@@ -64,9 +64,9 @@ El análisis incluyó:
 2.	Productos: Rentabilidad por categoría/subcategoría y análisis temporal.
 3.	Clientes: Segmentación demográfica, top clientes, y comportamiento de compra.
 ### Visualización:
-<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/e4c77944-47b4-4d07-8c6d-df90928508da" />
-<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/445c8954-9638-481f-87d8-9a69d514d7be" />
-<img width="692" height="388" alt="image" src="https://github.com/user-attachments/assets/4f0802a0-076d-430f-8d69-07d6cc22b1f3" />
+<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/d01f7f90-deb8-4388-852a-055a66c8b6bc" />
+<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/58483a18-d399-4e52-8a27-98f36ce7ff9e" />
+<img width="692" height="388" alt="image" src="https://github.com/user-attachments/assets/2f96c045-60c3-41a7-a832-426f4af73aba" />
 
 
 ## 4. Principales Insights
