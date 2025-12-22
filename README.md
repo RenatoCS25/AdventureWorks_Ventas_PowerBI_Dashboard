@@ -96,25 +96,25 @@ Los clientes con educación universitaria y postgrado representan el 50% de la b
 
 ## 5. Recomendaciones Estratégicas
 
- 1. Optimización del Portafolio de Productos
+ 1. Optimizar el mix de productos priorizando rentabilidad
 
-Actualmente, el 96.46% de las ventas provienen de la categoría Bikes, lo que representa una fuerte dependencia. Se recomienda diversificar promoviendo la línea de Mountain Bikes (la más rentable) y fomentando la venta de accesorios y ropa junto con cada bicicleta. Promociones del tipo "compra una bici y obtén 20% en accesorios" pueden aumentar la venta cruzada. También se sugiere revisar la línea de ropa y eliminar productos con bajo rendimiento para concentrar recursos en categorías más rentables.
+Reducir la alta dependencia de la categoría Bikes mediante estrategias de venta cruzada y, dentro de esta categoría, impulsar el volumen de ventas de Mountain Bikes, que presentan el mayor margen de rentabilidad pero un menor volumen que las bicicletas de carretera. Acciones como bundles con accesorios, promociones selectivas y campañas dirigidas permitirían aumentar unidades sin erosionar el margen, elevando la rentabilidad total del negocio.
 
- 2. Estrategias de Marketing Segmentado
+ 2. Impulsar la venta cruzada de accesorios y ropa
 
-El análisis demográfico muestra que el segmento Profesional (33.7% de ventas) valora el rendimiento, la tecnología y los materiales premium, mientras que el segmento de Gestión responde mejor a la exclusividad y estatus. Se recomienda diseñar campañas específicas por tipo de cliente y crear un programa de fidelización para el 10% de clientes que generan el 40% de los ingresos, con beneficios como descuentos especiales, acceso anticipado y eventos exclusivos.
+Aprovechar el crecimiento acelerado observado en 2024 para incrementar la participación de accesorios y ropa en el total de ventas, categorías que actualmente representan solo el 3.54%. Integrar estos productos en promociones asociadas a la compra de bicicletas permitiría aumentar el ticket promedio, diversificar ingresos y reducir el riesgo de concentración en una sola categoría.
 
- 3. Expansión Geográfica
+ 3. Enfocar marketing y adquisición en clientes de alto valor
 
 EE. UU. sigue siendo el mercado más importante, pero aún tiene espacio para crecer con más puntos de venta y marketing local. Australia destaca como el segundo mercado con mayor potencial; se recomienda establecer un centro de distribución regional y alianzas con minoristas locales. Además, se podrían evaluar nuevos mercados como Canadá, Alemania o España, que tienen clientes con perfiles similares al público objetivo de Adventure Works.
 
- 4. Estrategia Estacional
+ 4. Fortalecer la retención y el valor de vida del cliente (CLV)
+    
+Implementar un programa de fidelización enfocado en los clientes de mayor valor, que concentran una proporción significativa del revenue, mediante beneficios escalonados, comunicación personalizada basada en historial de compra y medición continua de satisfacción (NPS), con el objetivo de maximizar el CLV y reducir la dependencia de adquisición constante.
 
-Las ventas son muy estacionales, por lo que se sugiere una gestión más dinámica del inventario. Antes de la temporada alta (marzo-abril), lanzar campañas de preventa con descuentos. Durante los meses pico (mayo a septiembre), garantizar alta disponibilidad de stock. En los meses bajos, realizar promociones de fin de año (octubre-diciembre) y considerar una línea de productos para invierno que mantenga las ventas activas todo el año.
+ 5. Escalar el crecimiento de forma controlada
 
- 5. Retención de Clientes
-
-El 10% de los clientes genera el 40% del revenue, por lo que es clave un programa VIP con niveles (Silver, Gold, Platinum) y beneficios crecientes como descuentos, eventos exclusivos y atención personalizada. Además, usar email marketing personalizado según historial de compra y aplicar un sistema NPS para medir satisfacción y prevenir la pérdida de clientes valiosos.
+Capitalizar el crecimiento del 166% observado en 2024 mediante una expansión gradual y controlada de inventario, marketing y capacidad operativa, asegurando que el escalamiento esté alineado con la demanda para sostener el crecimiento sin generar sobrecostos ni ineficiencias.
 
 
 ##  Herramientas que Usé
