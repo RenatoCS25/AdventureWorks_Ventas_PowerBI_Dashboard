@@ -64,9 +64,10 @@ El análisis incluyó:
 2.	Productos: Rentabilidad por categoría/subcategoría y análisis temporal.
 3.	Clientes: Segmentación demográfica, top clientes, y comportamiento de compra.
 ### Visualización:
-<img width="637" height="357" alt="image" src="https://github.com/user-attachments/assets/6e30011f-4110-4db9-9d95-5706ae5097a0" />
-<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/16072082-9cb6-497f-a84f-a9d7fa9b3a5e" />
-<img width="638" height="361" alt="image" src="https://github.com/user-attachments/assets/f138f845-cae3-4982-a7b2-95605ac7e67e" />
+<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/e4c77944-47b4-4d07-8c6d-df90928508da" />
+<img width="691" height="388" alt="image" src="https://github.com/user-attachments/assets/445c8954-9638-481f-87d8-9a69d514d7be" />
+<img width="692" height="388" alt="image" src="https://github.com/user-attachments/assets/4f0802a0-076d-430f-8d69-07d6cc22b1f3" />
+
 
 ## 4. Principales Insights
 1. Dominio Absoluto de la Categoría Bikes
