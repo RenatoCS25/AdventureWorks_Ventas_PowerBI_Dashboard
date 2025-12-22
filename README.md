@@ -80,7 +80,7 @@ El análisis reveló que el top 10 de clientes genera aproximadamente el 40% del
 
 3. Crecimiento Explosivo en 2024
 
-Las ventas de 2024 ($16M) superan más del doble a las de 2023 ($6M), representando un crecimiento extraordinario del 166% year-over-year. Este patrón indica que el negocio está en una fase de crecimiento acelerado y expansión de mercado. Este momentum presenta el momento óptimo para escalar operaciones, optimizar la cadena de suministro y expandir la capacidad de inventario. Es crucial capitalizar este crecimiento mediante inversiones estratégicas en infraestructura, marketing y expansión geográfica antes de que el mercado alcance su punto de saturación.
+Las ventas de 2024 ($16M) superan más del doble a las de 2023 ($6M), representando un crecimiento extraordinario del 166% year-over-year. Este patrón indica que el negocio está en una fase de crecimiento acelerado y expansión de mercado. La razon es porque en el año 2024 se vendieron el triple de bicicletas con respecto al años anterior y recien se comenzaron a venden los accesorios y ropa, aportando $1M a las ventas de 2024. Este momentum presenta el momento óptimo para escalar operaciones, optimizar la cadena de suministro y expandir la capacidad de inventario. Es crucial capitalizar este crecimiento mediante inversiones estratégicas en infraestructura, marketing y expansión geográfica antes de que el mercado alcance su punto de saturación.
 
 4. Segmento Profesional como cliente principal
 
